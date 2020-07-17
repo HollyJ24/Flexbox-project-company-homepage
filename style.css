@@ -1,0 +1,89 @@
+html {
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(118, 156, 126);
+    
+}
+
+ul, a {
+    text-align: center;
+    color: rgb(118, 156, 126);
+    font-size: 26px;
+    padding: 8px;
+    background-color: rgb(215, 228, 218);
+}
+
+img {
+    border-radius: 20%;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    text-align: center;
+    display: inline;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+
+p {
+    color: rgb(118, 156, 126);
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(118, 156, 126);
+    background-color: rgb(215, 228, 218);
+    text-align: center;
+}
+
+.column {
+    float: right;
+    width: 20%;
+    margin: 10px;
+}
+
+.column2 {
+    margin-right: 125px;
+    margin-left: 125px;
+    padding: 10px;
+    display: inline-block;
+    width: 10%;
+    
+
+}
+
+
+footer {
+    background-color: rgb(215, 228, 218);
+}
+
+.foot {
+    color: rgb(129, 194, 143);
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    img, .column, .column2 {
+        size: 5%;
+    }
+    p, h1, h2, li {
+        font-size: 18px;
+    }
+
+}
