@@ -1,5 +1,4 @@
 html {
-    font-family: 'Lexend Zetta', sans-serif;
     border: 2px solid rgb(96, 133, 98);
   
 }
@@ -8,6 +7,7 @@ html {
     position: fixed;
     height: 80px;
     width: 100%;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 body {
@@ -24,6 +24,7 @@ h1 {
     color: white;
     background-color: rgb(96, 133, 98);
     padding: 35px;  
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 ul  {
@@ -41,6 +42,7 @@ li, a {
     font-size: 24px;
     padding: 8px;
     display: inline;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 
@@ -71,10 +73,12 @@ li {
 
 p {
     color: rgb(96, 133, 98);
-    font-size: 18px;
+    font-size: 22px;
     background-color: white;
     text-align: center; 
     padding: 20px;
+    font-family: 'Indie Flower', cursive;
+    line-height: 2;
 }
 
 h2 {
@@ -82,7 +86,7 @@ h2 {
     background-color: rgb(96, 133, 98);
     color: white;
     text-align: center;
-    
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 #About .column, .column2  {
@@ -95,11 +99,12 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: rgb(96, 133, 98);
     background-color: white;
     padding: 10px;
+    font-family: 'Indie Flower', cursive;
 }
 
 form {
@@ -109,6 +114,7 @@ form {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
 }
 
 input {
@@ -118,10 +124,12 @@ input {
     outline: none;
     color: white;
     font-size: 18px;
+    font-family: 'Indie Flower', cursive;
 }
 
 footer {
     background-color: rgb(96, 133, 98);
+
 }
 
 .foot {
@@ -129,17 +137,21 @@ footer {
     text-align: center;
     font-size: 12px;
     padding: 8px;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-    img, .column, .column2 {
-        size: 5%;
-    }
-    p, h1, h2, li {
-        font-size: 18px;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+
+@media screen and (min-width 300px) and (max-width: 800px) {
+    p, h3 {
+        font-size: 10px;
+    }
+    ul, h1 {
+        font-size: 12px;
+    }
+    img {
+        size: 20%;
+    }
+
+
 }
