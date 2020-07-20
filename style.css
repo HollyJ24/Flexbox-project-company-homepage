@@ -142,7 +142,7 @@ footer {
 
 
 
-@media screen and (min-width 300px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     p, h3 {
         font-size: 10px;
     }
