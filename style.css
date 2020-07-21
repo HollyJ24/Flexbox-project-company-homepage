@@ -1,76 +1,81 @@
 html {
-    border: 2px solid rgb(96, 133, 98);
-  
+    
 }
+ .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    top: 7px;
+    left: 10px;
+    text-align: center;
 
-#home {
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    font-family: 'Lexend Zetta', sans-serif;
 }
-
 body {
-    background-image: url(floral-4802640_1920.png);
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+    margin: 0;
+    background-image: url(floral-4802640_1920.png);
+    
 }
-
 h1 {
     text-align: center;
-    font-size: 40px;
-    color: white;
-    background-color: rgb(96, 133, 98);
-    padding: 35px;  
+    font-size: 18px;
+    background-color: white;
+    color: rgb(96, 133, 98);
+    padding: 20px;
     font-family: 'Lexend Zetta', sans-serif;
-}
+    margin: 0;
 
+}
 ul  {
     background-color: white;
     text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 10px;
-    width: 98%;
+    border: 2px solid rgb(96, 133, 98);
 }
 
 li, a {
     color: rgb(96, 133, 98);
     text-decoration: none;
-    font-size: 24px;
-    padding: 8px;
+    font-size: 16px;
+    padding: 5px;
     display: inline;
     font-family: 'Lexend Zetta', sans-serif;
 }
-
-
-img {
-    border-radius: 20%;
-    margin: 0;
-    padding: 0;
-}
-
 li {
     text-align: center;
     display: inline;
 }
-
 .flex-container {
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;  
 }
-
 .flex-container img {
-    border-radius: 20%;
-    border: solid 2px rgb(96, 133, 98);
     height: 500px;
     width: 400px;
+    border: 1px solid white;
+}
+.flex-container .topleft {
+    position: absolute;
+    top: 50px;
+    left: 130px;
 }
 
+.topleft span {
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 20px;
+    color: rgb(96, 133, 98);
+    padding: 20px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.849);
+    text-align: center;
+}
 p {
     color: rgb(96, 133, 98);
     font-size: 22px;
@@ -79,32 +84,92 @@ p {
     padding: 20px;
     font-family: 'Indie Flower', cursive;
     line-height: 2;
+    letter-spacing: 1px;
 }
 
-h2 {
-    font-size: 30px;
-    background-color: rgb(96, 133, 98);
-    color: white;
-    text-align: center;
-    font-family: 'Lexend Zetta', sans-serif;
-}
-
-#About .column, .column2  {
-    width: 250px;
-    height: 250px;
-    display: inline-flexbox;
-    margin-left: 10%;
+.aboutcntr {
+    position: relative;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    border: solid 2px rgb(96, 133, 98);
+    flex-wrap: wrap;  
+}
+.aboutcntr img {
+    height: 500px;
+    width: 400px;
+    border: 1px solid white;
+}
+.aboutcntr .left {
+    position: absolute;
+    align-content: center;
+    top: 50px;
 }
 
-h3 {
+.left span {
+    font-family: 'Lexend Zetta', sans-serif;
     font-size: 20px;
-    text-align: center;
     color: rgb(96, 133, 98);
-    background-color: white;
-    padding: 10px;
-    font-family: 'Indie Flower', cursive;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.849);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contactcntr {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+.contactcntr img {
+    height: 500px;
+    width: 400px;
+    border: 1px solid white;
+}
+.contactcntr .contacttxt {
+    position: absolute;
+    align-content: center;
+    top: 50px;
+}
+
+.contacttxt span {
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 20px;
+    color: rgb(96, 133, 98);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.849);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.news-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+.news-container img {
+    height: 500px;
+    width: 400px;
+    border: 1px solid white;
+}
+.news-container .newsleft {
+    position: absolute;
+    align-content: center;
+    top: 50px;
+}
+
+.newsleft span {
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 20px;
+    color: rgb(96, 133, 98);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.849);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 form {
