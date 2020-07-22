@@ -207,13 +207,14 @@ footer {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     p {font-size: 18px;}
-    a {font-size: 15px;}
+    a {font-size: 13px;}
     img {max-width: 100%; height: auto;}
     .foot {font-size: 10px;}
-    .hometext span, .news-container span {
-        font-size: 10px;
+    .hometext span {
+        font-size: 6px;
         padding: 10px;
     }
+    .news-container span { font-size: 10px;}
 }
 @media screen and (min-width: 800px) and (max-width: 1200px) {
     .flex-container img, .aboutcntr img, .contactcntr img, .news-container img {
