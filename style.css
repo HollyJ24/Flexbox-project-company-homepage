@@ -210,7 +210,7 @@ footer {
     a {font-size: 15px;}
     img {max-width: 100%; height: auto;}
     .foot {font-size: 10px;}
-    .hometext span {
+    .hometext span, .news-container span {
         font-size: 10px;
         padding: 10px;
     }
@@ -220,7 +220,7 @@ footer {
         height: 225px;
         width: 225px;
     }
-    .hometext span {
+    .hometext span, .news-container span {
         font-size: 18px;
         padding: 10px;
     }
