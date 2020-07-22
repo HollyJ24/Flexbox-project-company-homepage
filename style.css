@@ -205,13 +205,6 @@ footer {
     font-family: 'Lexend Zetta', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-    p {font-size: 16px;}
-    a {font-size: 14px;}
-    .hometext span {
-        font-size: 8px;
-    }
-}
 
 @media screen and (max-width: 800px) {
     p {font-size: 18px;}
